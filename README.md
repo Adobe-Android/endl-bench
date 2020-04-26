@@ -15,7 +15,7 @@ std::cout << "hello" << "\n";
 ```
 
 ## What kind of performance hit can I expect?
-It will wildly vary based on your use case how expensive this operation is and whether you should have used it in the first place. Here are my results of this trivial benchmark.
+It will wildly vary based on your use case, how expensive this operation is for your application, and whether you should have used it in the first place. Here are my results of this trivial benchmark.
 
 ```
 It took say_hello 190 ms
