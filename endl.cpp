@@ -1,16 +1,14 @@
 #include <iostream>
 #include <chrono>
 
-int say_hello_with_flush()
+void say_hello_with_flush()
 {
     std::cout << "hello" << std::endl;
-    return 0;
 }
 
-int say_hello()
+void say_hello()
 {
     std::cout << "hello\n";
-    return 0;
 }
 
 int main()

@@ -18,8 +18,9 @@ std::cout << "hello" << "\n";
 It will wildly vary based on your use case, how expensive this operation is for your application, and whether you should have used it in the first place. Here are my results of this trivial benchmark.
 
 ```
-It took say_hello 190 ms
-It took say_hello_with_flush 348 ms
+It took say_hello 206 ms
+It took say_hello_with_flush 353 ms
+It took say_hello in Node.js: 265.922 ms
 ```
 
 ## References
